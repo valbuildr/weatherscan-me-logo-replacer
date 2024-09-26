@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Replace weatherscan.me logo",
+  "version": "1.0",
+
+  "description": ":)",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.weatherscan.me/*"],
+      "js": ["replaceLogo.js"]
+    }
+  ]
+}
